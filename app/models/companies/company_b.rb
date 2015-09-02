@@ -1,0 +1,2 @@
+class CompanyB < Company
+end
