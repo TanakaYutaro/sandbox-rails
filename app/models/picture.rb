@@ -1,3 +1,3 @@
 class Picture < ActiveRecord::Base
-  belongs_to :employee
+  belongs_to :employee, polymorphic: true
 end
